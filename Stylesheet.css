@@ -5,7 +5,6 @@
 .container{
     display: flex;
     font-size: 17px;
-    display: flex;
     flex-wrap: wrap;
 
 }
@@ -53,11 +52,10 @@ main{
 }
 img{ border-radius: 45%;
      border-color: violet;
-}
+} 
 
 body ,a{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 
 
