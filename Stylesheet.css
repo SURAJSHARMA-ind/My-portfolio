@@ -7,7 +7,7 @@
     font-size: 17px;
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 .nav{
     padding: 10px
@@ -17,8 +17,9 @@ a{  text-decoration: none;
 }
 a:hover{
    text-decoration:underline coral 2px ;
-   transition: 0.1s;
+   transition-duration: 0.3s;
    font-size:  20px;
+   transform: scale(1);
 
 }
 #Name{
@@ -31,6 +32,8 @@ a:hover{
 main{
     margin-top: 85px;
     margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
 }
 #hi{
     font-size: 45px;
@@ -43,6 +46,11 @@ main{
     margin-top: 120px;
     margin-right: 100px;
 }
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 img{ border-radius: 45%;
      border-color: violet;
 }
@@ -51,5 +59,6 @@ body ,a{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
+
+
 }
