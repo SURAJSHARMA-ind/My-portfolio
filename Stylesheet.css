@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+    display: flex;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.nav{
+    padding: 10px
+}
+a{  text-decoration: none;
+    color: rgba(0, 0, 0, 0.877);
+}
+a:hover{
+   text-decoration:underline coral 2px ;
+   transition: 0.1s;
+   font-size:  20px;
+
+}
+#Name{
+    margin-right: 600px;
+    margin-left: 70px;
+    font-weight: 550;
+    font-size: 30px;
+    display: block;
+}
+main{
+    margin-top: 85px;
+    margin-left: 200px;
+}
+#hi{
+    font-size: 45px;
+}
+
+.main{
+    display: flex;
+}
+#linkedin{
+    margin-top: 120px;
+    margin-right: 100px;
+}
+img{ border-radius: 45%;
+     border-color: violet;
+}
+
+body ,a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
