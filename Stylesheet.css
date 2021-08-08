@@ -14,7 +14,7 @@
 a{  text-decoration: none;
     color: rgba(0, 0, 0, 0.877);
 }
-a:hover{
+.container a:hover{
    text-decoration:underline coral 2px ;
    transition-duration: 0.3s;
    font-size:  20px;
@@ -29,7 +29,7 @@ a:hover{
     display: block;
 }
 main{
-    margin-top: 85px;
+    margin-top: 125px;
     margin-left: 200px;
     display: flex;
     flex-wrap: wrap;
@@ -45,18 +45,35 @@ main{
     margin-top: 120px;
     margin-right: 100px;
 }
-.intro{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+#hi{
+    display: block;
+    margin-bottom: 10px;
 }
-img{ border-radius: 45%;
+#intro{
+    display: block;
+    font-size: larger;
+    margin: 10px;
+    margin-left: 0px;
+}
+img{ border-radius: 42%;
      border-color: violet;
 } 
 
 body ,a{
     display: flex;
     flex-wrap: wrap;
-
-
 }
+.contact{
+   margin-top: 50px;
+   margin-left: 50px;
+   border: rgb(3, 3, 3) 1px solid;
+   border-radius: 5px;
+   padding:5px;
+   font-size: larger;
+   display: block;
+   background-color: rgb(139, 59, 219);
+   color: white;
+   font-weight: bold;
+   padding: 5px;
+   width: fit-content;
+}  
